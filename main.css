@@ -1,0 +1,175 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 110% georgia, sans-serif;
+	line-height: 1.5;
+	color: #000; 
+	margin: 0; 
+	padding: 0;
+	font-family: sans-serif;
+	background: rgba(0,0,0,0) url(blueroots.jpg) center top repeat;
+text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.7);
+}
+.outerDiv{
+	background: url(sbg.jpg) center top no-repeat; 
+	background-size: 100%;
+        
+    /* Webkit 
+  -webkit-mask-image: -webkit-linear-gradient(top,
+     rgba(0,0,0,1),
+     rgba(0,0,0,1),
+     rgba(0,0,0,0)
+     )*/
+}
+ul {
+    width:100%;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+
+ul li {
+    font-size:200%;
+    padding:0.5em;
+    
+    text-shadow: 0 0 6px rgba(100, 255, 100, 1);
+ display: inline;
+ text-align: center;
+ width:30%;
+}
+
+h1 { 
+        text-align:center;
+text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+        }
+h2 { 
+        text-align:center;
+        background: rgba(158,30,158,0.65) ; 
+border: grey solid 1px;
+margin-left:-30px;
+margin-right:-30px;
+text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+border-radius:1em;
+        }
+h4 { 
+        margin-bottom:2px;
+        padding-bottom:2px;
+        margin-top:4px;
+        padding-top:4px;
+        background: rgba(255,138,0,0.86) ;
+border: grey solid 1px;
+margin-left:-24px;
+margin-right:-24px;
+text-align:center;
+text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+border-radius:1em;
+        }
+/*h3 { 
+        margin-bottom:3px;
+        padding-bottom:3px;
+        margin-top:7px;
+        padding-top:7px;
+text-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
+text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+        }*/
+
+.topDiv{
+	background: url(leaves.png); 
+	background-repeat:repeat-x;
+	width:100%;
+	/*height:160px;
+	position:fixed;*/
+	top:0px;
+}
+.titleDiv{
+    margin-left:auto;
+    margin-right:auto;
+    width: 690px;
+
+}
+.mainDiv{
+width: 800px;
+border-radius:1em;
+border: grey solid 1px;
+max-width:90%;
+
+margin-left:auto;
+margin-top:auto;
+margin-bottom:100px;
+
+margin-right:auto;
+
+        background: rgba(120,255,120,0.66) ; 
+
+
+padding: 20px 20px 20px 20px;
+}
+.ticketDiv{
+width: 95%;
+border-radius:1em;
+border: grey solid 1px;
+max-width:90%;
+
+margin-left:auto;
+margin-top:auto;
+
+margin-right:auto;
+
+        background: rgba(120,255,120,0.55) ; 
+padding: 10px;
+margin-bottom: 3px;
+
+
+}
+
+.texImage { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.bluesHeader { 
+        width:100%;
+        text-align:center;
+margin-left:auto;
+margin-right:auto;
+        background: rgba(158,30,158,0.65) ; 
+text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+border-radius:1em;
+        }
+
+h3 { 
+   position: absolute; 
+   bottom: -10px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h3 span { 
+   color: white; 
+   font: bold 20px/40px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+
+.bandDiv { 
+   position: relative; 
+   width: 80%; /* for IE 6 */
+margin-left:auto;
+
+margin-right:auto;
+}
+.bandCol{ 
+   position: relative; 
+   width: 45%; /* for IE 6 */
+   float:left;
+   padding:10px;
+margin-left:auto;
+
+margin-right:auto;
+}
