@@ -1,1 +1,3 @@
 rsync index.html main.css alexpb@chozabu.net:~/bluesandroots.co.uk/
+rsync otherpics/* alexpb@chozabu.net:~/bluesandroots.co.uk/otherpics/
+rsync bandpics/* alexpb@chozabu.net:~/bluesandroots.co.uk/bandpics/
