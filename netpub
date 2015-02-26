@@ -1,7 +1,9 @@
 git push
+echo "syncing to host"
 rsync index.html main.css alexpb@chozabu.net:~/bluesandroots.co.uk/
 rsync otherpics/* alexpb@chozabu.net:~/bluesandroots.co.uk/otherpics/
 rsync bandpics/* alexpb@chozabu.net:~/bluesandroots.co.uk/bandpics/
 rsync logos/* alexpb@chozabu.net:~/bluesandroots.co.uk/logos/
 rsync files/* alexpb@chozabu.net:~/bluesandroots.co.uk/files/
+echo "done"
 
