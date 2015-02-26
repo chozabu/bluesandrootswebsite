@@ -184,14 +184,14 @@ h3 span {
 
 .bandDiv { 
    position: relative; 
-   width: 89%; /* for IE 6 */
+   width: 100%; /* for IE 6 */
 margin-left:auto;
 
 margin-right:auto;
 }
 .bandCol{ 
    position: relative; 
-   width: 47%; /* for IE 6 */
+   width: 40%; /* for IE 6 */
    float:left;
    padding:10px;
 margin-left:auto;
