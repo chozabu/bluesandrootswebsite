@@ -2,7 +2,7 @@ echo "syncing git"
 git push
 echo "syncing to host"
 echo "main hrml and css"
-rsync index.html main.css alexpb@chozabu.net:~/bluesandroots.co.uk/
+rsync index.html secrettickets.html main.css alexpb@chozabu.net:~/bluesandroots.co.uk/
 echo "otherpucs"
 rsync otherpics/* alexpb@chozabu.net:~/bluesandroots.co.uk/otherpics/
 echo "bandpics"
