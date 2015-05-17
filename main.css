@@ -130,6 +130,24 @@ margin-right:auto;
 padding: 20px 20px 20px 20px;
 box-shadow: -4px 4px 3px rgba(1, 1, 1, 0.7);
 }
+.bandinfoDiv{
+width: 800px;
+border-radius:1em;
+border: grey solid 1px;
+max-width:90%;
+
+margin-left:auto;
+margin-top:-30px;
+margin-bottom:100px;
+
+margin-right:auto;
+
+        background: rgba(120,255,120,0.66) ; 
+
+
+padding: 20px 20px 20px 20px;
+box-shadow: -4px 4px 3px rgba(1, 1, 1, 0.7);
+}
 .ticketDiv{
 width: 95%;
 border-radius:1em;
